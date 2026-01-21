@@ -68,8 +68,8 @@
       const mdp = document.getElementById("motdepasse").value;
       const message = document.getElementById("messageErreur");
 
-      if (id === "christian.duroux12" && mdp === "Mia1234") {
-        localStorage.setItem("statut", "Actif"); // ou "Bloqué" si tu veux simuler un compte bloqué
+      if (id === "Francois.Bouvier12" && mdp === "Mia1234") {
+        localStorage.setItem("statut", "Bloqué"); // ou "Bloqué" si tu veux simuler un compte bloqué
         window.location.href = "login.html";
       } else {
         message.textContent = "Identifiants incorrects.";
@@ -80,3 +80,4 @@
 </body>
 
 </html>
+
